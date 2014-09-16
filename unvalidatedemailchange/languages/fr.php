@@ -18,5 +18,8 @@ return array(
 'unvalidatedemailchange:user_email_changed_to' => 'Adresse e-mail de l\'utilisateur %s changée en %s.',
 'unvalidatedemailchange:email_address_invalid' => 'L\'adresse email fournie %s n\'est pas valide.',
 'unvalidatedemailchange:new_user_email' => 'Entrez l\'adresse e-mail pour %s: ',
-'unvalidatedemailchange:change_email' => 'Modifier l\'adresse e-mail'
+'unvalidatedemailchange:change_email' => 'Modifier l\'adresse e-mail',
+
+'unvalidatedemailchange:ip_address' => 'Adresse ip: ',
+'unvalidatedemailchange:no_ip_address' => 'Pas d\'adresse IP enregistrée.'
 );

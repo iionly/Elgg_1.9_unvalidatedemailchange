@@ -1,6 +1,6 @@
 Unvalidated Email Change plugin
-Latest Version: 1.9.2
-Released: 2014-09-16
+Latest Version: 1.10.2
+Released: 2015-02-08
 Contact: iionly@gmx.de
 License: GNU General Public License version 2
 Copyright: (c) iionly
@@ -35,6 +35,11 @@ Installation:
 
 
 Changelog:
+
+1.10.2:
+
+- Based on version 1.9.2,
+- Fix of deprecation issues occuring on Elgg 1.10 (namely changing output/confirmlink view to output/url view).
 
 1.9.2:
 

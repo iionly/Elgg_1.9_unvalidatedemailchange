@@ -3,7 +3,7 @@
 	<name>Unvalidatedemailchange</name>
 	<id>unvalidatedemailchange</id>
 	<author>iionly / Pjotr Savitski</author>
-	<version>1.10.2</version>
+	<version>1.10.3</version>
 	<category>enhancement</category>
 	<description>Allows to change the email address of unvalidated users.</description>
 	<website>https://github.com/iionly</website>

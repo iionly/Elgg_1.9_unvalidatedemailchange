@@ -1,6 +1,14 @@
 Changelog
 =========
 
+2.3.4
+-----
+
+- General code cleanup and restructuring (bringing it up to date with some new stuff of Elgg 2.3 API),
+- Action error and success handling: updated to new Elgg API functions,
+- Usage of Elgg forms input API functions introduced in Elgg 2.3,
+- Fixed validation of (new) email (validate_email_address() causes an exception so use is_email_address()).
+
 2.3.3
 -----
 

@@ -12,6 +12,6 @@
 elgg_register_event_handler('init', 'system', 'unvalidatedemailchange_init');
 
 function unvalidatedemailchange_init() {
-	elgg_register_action('unvalidatedemailchange/change_user_email', elgg_get_plugins_path() . "unvalidatedemailchange/actions/change_user_email.php", 'admin');
+	elgg_register_action('unvalidatedemailchange/change_user_email', dirname(__FILE__) . '/actions/unvalidatedemailchange/change_user_email.php', 'admin');
 	elgg_register_ajax_view('unvalidatedemailchange/change_email');
 }

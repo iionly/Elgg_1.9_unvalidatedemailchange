@@ -9,12 +9,18 @@
  *
  */
 
-$user_guid = $vars['user_guid'];
-$username =  $vars['user_name'];
-$action = "action/unvalidatedemailchange/change_user_email/?user_guid=$user_guid";
+$user_guid = elgg_extract('user_guid', $vars);
+$user_name = elgg_extract('user_name', $vars);
+$user_email = elgg_extract('user_email', $vars);
 
-$body = "<div style=\"width:600px;\"><label>".elgg_echo('unvalidatedemailchange:new_user_email',array($username))."</label>";
-$body .= elgg_view('input/text', array('name' => 'new_email', 'class' => mbm));
-$body .= elgg_view('input/submit', array('value' => elgg_echo('unvalidatedemailchange:change_email'))).'</div>';
+$form_vars = [
+	'action' => "action/unvalidatedemailchange/change_user_email",
+	'class' => 'elgg-form-settings',
+];
+$body_vars = [
+	'user_guid' => $user_guid,
+	'user_name' => $user_name,
+	'user_email' => $user_email,
+];
 
-echo elgg_view('input/form', array('action' => $action, 'body' => $body));
+echo elgg_view_form('unvalidatedemailchange/change_user_email', $form_vars, $body_vars);

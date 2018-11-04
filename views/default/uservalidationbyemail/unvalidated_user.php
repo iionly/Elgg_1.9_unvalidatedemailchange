@@ -27,7 +27,7 @@ $validate = elgg_view('output/url', array(
 ));
 
 $change_email = elgg_view('output/url', array(
-	'href' => "ajax/view/unvalidatedemailchange/change_email/?user_guid=$user->guid&user_name=$user->username",
+	'href' => "ajax/view/unvalidatedemailchange/change_email/?user_guid=$user->guid&user_name=$user->name&user_email=$user->email",
 	'class' => 'elgg-lightbox',
 	'text' => elgg_echo('unvalidatedemailchange:change_email')
 ));

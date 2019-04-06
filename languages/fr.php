@@ -20,6 +20,6 @@ return [
 	'unvalidatedemailchange:new_user_email' => 'Entrez l\'adresse e-mail pour %s',
 	'unvalidatedemailchange:change_email' => 'Modifier l\'adresse e-mail',
 
-	'unvalidatedemailchange:ip_address' => 'Adresse ip: ',
+	'unvalidatedemailchange:ip_address' => 'Adresse ip: %s',
 	'unvalidatedemailchange:no_ip_address' => 'Pas d\'adresse IP enregistrée.',
 ];

@@ -21,6 +21,6 @@ return [
 	'unvalidatedemailchange:new_user_email' => 'Enter the new email address for %s',
 	'unvalidatedemailchange:change_email' => 'Change email',
 
-	'unvalidatedemailchange:ip_address' => 'IP address: ',
+	'unvalidatedemailchange:ip_address' => 'IP address: %s',
 	'unvalidatedemailchange:no_ip_address' => 'No IP address logged.',
 ];
